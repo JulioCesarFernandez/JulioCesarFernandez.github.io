@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://JulioCesarFernandez.github.io/sitemap.xml
