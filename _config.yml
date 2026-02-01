@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "neon" # ,"default" "air", "aqua", "contrast", "dark"
 # Site Settings
 locale                  : "en-US"
 rtl                     : false
-title                   : "The Feedback Loop"
+title                   : "My personal portfolio"
 title_separator         : "|"
 subtitle                : "Physicist & EEE Engineer | Aerospace Reliability & Control"
 name                    : "Julio Cesar Fernandez Kolmer"
@@ -27,7 +27,7 @@ baseurl                 : "" # Déjalo vacío si es el repositorio principal (.g
 repository              : "https://github.com/JulioCesarFernandez/Realimentados"
 teaser                  : "/assets/images/teaser-aerospace.jpg" # Sugerido: Imagen de un PCB o satélite
 logo                    : "/assets/images/logo-eee.png" 
-masthead_title          : "The Feedback Loop"
+masthead_title          : "My personal portfolio"
 breadcrumbs             : true
 words_per_minute        : 200
 enable_copy_code_button : true # Esencial para mostrar código de Python/C++ o fragmentos de LaTeX
@@ -303,7 +303,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: single #home #single
       author_profile: true
       read_time: true
       comments: # true
