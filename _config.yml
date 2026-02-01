@@ -12,29 +12,29 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "neon" # ,"default" "air", "aqua", "contrast", "dark", "dirt",  "mint", "plum", "sunrise",neon
 
 # Site Settings
-locale                   : "en-US"
-rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : # true, false (default)
-words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
-copyright                : # "copyright" name, defaults to site.title
-copyright_url            : # "copyright" URL, defaults to site.url
+locale                  : "en-US"
+rtl                     : false
+title                   : "The Feedback Loop"
+title_separator         : "|"
+subtitle                : "Physicist & EEE Engineer | Aerospace Reliability & Control"
+name                    : "Julio Cesar Fernandez Kolmer"
+description             : "Engineering portfolio and technical blog focused on EEE components, space-grade reliability (ECSS), and autonomous robotics systems."
+url                     : "https://JulioCesarFernandez.github.io" # Sustituye por tu URL real
+baseurl                 : "" # Déjalo vacío si es el repositorio principal (.github.io)
+repository              : "https://github.com/JulioCesarFernandez/Realimentados"
+teaser                  : "/assets/images/teaser-aerospace.jpg" # Sugerido: Imagen de un PCB o satélite
+logo                    : "/assets/images/logo-eee.png" 
+masthead_title          : "The Feedback Loop"
+breadcrumbs             : true
+words_per_minute        : 200
+enable_copy_code_button : true # Esencial para mostrar código de Python/C++ o fragmentos de LaTeX
+copyright               : "Julio Cesar Fernandez Kolmer - Airbus Crisa EEE Intern"
+copyright_url           : "https://www.linkedin.com/in/julio-cesar-fernandez-kolmer-3232ab350"
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "giscus" # Recomendado para perfiles técnicos de GitHub  
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -113,54 +113,38 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Julio Cesar Fernandez Kolmer"
+  avatar           : "/assets/images/bio-photo.jpg" # Asegúrate de subir tu foto aquí
+  bio              : "Physicist & EEE Engineer | Specialized in **Aerospace Reliability** and **Control Systems**. Currently at **Airbus Crisa** optimizing the lifecycle of high-reliability components."
+  location         : "Madrid, Spain"
+  email            : "juliokolmer@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/julio-cesar-fernandez-kolmer-3232ab350"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
+      url: "https://github.com/JulioCesarFernandez"
+    - label: "Instagram (Robodinámica)"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/robodinamica/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:juliokolmer@gmail.com"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/julio-cesar-fernandez-kolmer-3232ab350"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
+      url: "https://github.com/JulioCesarFernandez"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
-  since: "2013"
-
+      url: "https://www.instagram.com/robodinamica/"
+  since: "2024" # Año de inicio de tu trayectoria profesional/blog
 
 # Reading Files
 include:
