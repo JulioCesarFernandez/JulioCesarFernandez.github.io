@@ -10,7 +10,7 @@ tags:
   - ECSS Standards
 ---
 
-Tras siete meses integrando el equipo de componentes de **Airbus Crisa**, he comprendido que la ingeniería de componentes (EEE Parts Management) es el pilar sobre el que descansa la integridad de cualquier sistema espacial. En este entorno, la selección de un componente no es una decisión administrativa, sino un ejercicio de **Física de Fallos**.
+Tras siete meses en el equipo de componentes de **Airbus Crisa**, he comprendido que la ingeniería de componentes (EEE Parts Management) es el pilar sobre el que descansa la integridad de cualquier sistema espacial. En este entorno, la selección de un componente no es una decisión administrativa, sino un ejercicio de **Física de Fallos**.
 
 ## El Porqué: Teoría de la Fiabilidad y el Entorno Espacial
 
