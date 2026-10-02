@@ -4,6 +4,8 @@ main:
     url: /categories/tech/
   - title: "Lifestyle"
     url: /categories/lifestyle/
+  - title: "UC3M"
+    url: /categories/uc3m
 #main:
 #  - title: "Quick-Start Guide"
 #    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
